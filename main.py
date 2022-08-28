@@ -12,10 +12,10 @@ import matplotlib.pyplot as plt
 from collections import Counter
 app = Flask(__name__)
     
-consumer_key = "DCvosorD3gRN6CBzG0EEFJPDD"
-consumer_secret = "mjF1I5PtmDKu9FblHujIzDTwhFWapR8kIXCSUXXmbNCV8BOhLx" 
-access_key = "1072199779181047809-00lZwdHtduYHbunpaWtSWACAsksZuu"
-access_secret = "YUTCqBViyU4ZejJOQEDD92A11nEdMxbyvtMPTzlnFIytk" 
+consumer_key = ""
+consumer_secret = "" 
+access_key = ""
+access_secret = "" 
 
 def percentage(part,whole):
      return 100 * float(part)/float(whole)
